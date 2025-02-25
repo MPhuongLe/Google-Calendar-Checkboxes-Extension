@@ -1,0 +1,21 @@
+.event-checkbox {
+  position: relative;
+  margin-right: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  pointer-events: auto;
+  vertical-align: middle;
+}
+
+.event-title-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  text-wrap: nowrap;
+}
+
+/* Increase the event container height */
+/* [role='button'] {
+  min-height: calc(100% + 15px) !important;
+  padding: 10px;
+} */
+

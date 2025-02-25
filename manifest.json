@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Google Calendar Checkboxes",
+    "version": "1.0",
+    "description": "Adds checkboxes to Google Calendar events to track completion.",
+    "permissions": ["storage"],
+    "host_permissions": ["https://calendar.google.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://calendar.google.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
