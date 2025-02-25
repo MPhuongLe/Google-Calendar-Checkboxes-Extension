@@ -23,8 +23,9 @@ This **Chrome extension** adds checkboxes to **Google Calendar** events, making 
 3. Click once more to **reset** it back to the default state.
 
 ## 🐞 Known Issues
-- **Initial checkboxes may take a moment to appear** (minor delay due to page load time).
-- **Checkbox states do not sync across devices** (local storage only).
+- Initial checkboxes may take a moment to appear (minor delay due to page load time).
+- Checkbox states do not sync across devices (local storage only).
+- For short-duration events, text overflow may affect appearance. Solution: Change the event to "All day" or increase its duration.  
 
 ## 📜 License
 This project is **open-source**. Feel free to improve, tweak, and make it your own! 🚀
