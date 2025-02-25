@@ -6,16 +6,16 @@ This **Chrome extension** adds checkboxes to **Google Calendar** events, making 
 - **Checkbox for every event** in Google Calendar.
 - **Saves state** locally using `chrome.storage.local`, so your selections persist.
 - **Three-step cycle** for tracking event progress:
-  1. **⬜ Unchecked** → Default state.
-  2. **✅ Checked** → Event completed (opacity reduces slightly).
-  3. **❌ Crossed-out** → Event cancelled (opacity reduces further).
+  - **⬜ Unchecked** → Default state.
+  - **✅ Checked** → Event completed (opacity reduces slightly).
+  - **❌ Crossed-out** → Event cancelled (opacity reduces further).
 
 ## 🔧 Installation
-1. 📥 **Clone** or **download** this repository.
-2. 🌐 Open **Chrome** and go to `chrome://extensions/`.
-3. 🛠️ Enable **Developer Mode** (toggle at the top right).
-4. 📂 Click **Load Unpacked** and select the project folder.
-5. 🎉 Open **Google Calendar** and enjoy the checkboxes!
+1. **Clone** or **download** this repository.
+2. Open **Chrome** and go to `chrome://extensions/`.
+3. Enable **Developer Mode** (toggle at the top right).
+4. Click **Load Unpacked** and select the project folder.
+5. Open **Google Calendar** and enjoy the checkboxes!
 
 ## 🎯 How to Use
 1. Click a **checkbox** to mark an event as **completed** (opacity reduces).
